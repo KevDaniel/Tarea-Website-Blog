@@ -35,6 +35,10 @@ p{
     font-style: oblique;
     text-align: justify;
 }
+footer {
+    text-align: center;
+    font-size: 20px;
+}
 #imagen-bienvenida{
     padding: inherit;
     padding-left: 1%;
