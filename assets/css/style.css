@@ -1,0 +1,57 @@
+.fuente-navbar{
+    font-family: 'Style Script', cursive;
+    font-size: 25px;
+    padding: 0cm;
+}
+.fuente-acerca{
+    font-family: 'Style Script';
+    font-size: 40px;
+}
+.fuente-card{
+    font-family: 'Style Script';
+    font-size: 70px;
+    margin-top: 20%;
+}
+.fuente-card-contacto{
+    font-family: 'Style Script';
+    font-size: 70px;
+    margin-top: 12%;   
+}
+.fuente-card-h2{
+    font-family: 'Style Script';
+    font-size: 30px;
+}
+#imagen-kevin{
+    height: 470px;
+    padding-top: 5%; 
+    padding-left: 5%;
+}
+#parrafo-acerca{
+    text-align: justify;
+    font-family: 'Oswald';
+    font-size: larger;
+    font-style: oblique;
+}
+.footer-id{
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-align: center;
+}
+.bi-bi-twitter{
+    color: white !important;
+}
+.indice{
+    text-decoration: none;
+}
+.contacto-form{
+    font-family: 'Oswald';
+    font-style: oblique;
+    font-size: 20px;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    margin-bottom: 0%;
+}
+#enviar-btn{
+    border-width: 2px;
+    font-style: italic;
+}
