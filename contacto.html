@@ -44,22 +44,33 @@
     </div>
     <div> <!-- Desarrollo de la imagen que proporciona una bienvenida.-->
       <div class="card bg-dark text-white">
-        <img class="card-img" src="./assets/images/desktop inicio.jpg" alt="Card image">
+        <img class="card-img" src="./assets/images/contacto.jfif" alt="Card image">
         <div class="card-img-overlay">
-          <h1 class="card-title text-center fuente-card">Bienvenido a mi Pagina Web Personal</h1>
-          <h2 class="card-tittle text-center fuente-card-h2">Desarrollo de pagina Web con HTML, CSS y Bootstrap</h2>
+          <h1 class="card-title text-center fuente-card-contacto">Contacto personal</h1>
         </div>
       </div>
     </div>
-    <div class="container-fluid bg-dark"> <!--Desarrollo de acerca de mi-->
-      <div class="row col-12 bg-dark">
-        <h1 class="fuente-acerca bg-dark text-center text-white pt-4 pb-4" id="acerca-id">Acerca de Mí</h1>
-        <div class="row col-12 bg-dark" id="parrafo-acerca">
-          <p class="text-white">Hola mi nombre es Kevin Ramirez, soy un estudiante de la carrera de Ingeniería en Ciencias y Sistemas de la universidad de San Carlos de Guatemala, actualmente me encuentro estudiando el curso de Full Stack de Java en la el Centro Educativo Técnico Laboral Kinal, donde recibo mis clases para poder desarrollarme y poder tratar de trabajar en el ámbito tecnológico como desarrollador de software o alguna posición similar.</p>
-          <p class="text-white">Nací en el año de 1994 en el mes de Enero, y desde muy temprana edad siempre tuve una atracción por el mundo de la tecnología donde empecé desarrollándome en el tema de  ensambles de computadoras y conocimientos básicos de computación a la edad de 14 años, pero al entrar a la universidad mi primer lenguaje de programación fue Turbo Pascal en el cual empecé a dar algunos pasos para aprender, pero no fue hasta la edad de 24 años donde empecé a tratar de aprender con mayor constancia con el curso de certificación para CCNA, este curso fue el que me incentivo a seguir aprendiendo hasta lograr culminar un curso de desarrollo en Python proporcionado por el Cisco NetAcad y también un curso de Fundamentos de Programación en Java el cual me ayudo a clarificar muchos conceptos que fueron difíciles de entender por cuenta propia como lo es el paradigma de la OPP o programación  orientada a objectos.</p>
+    <div class="container bg-dark"> <!--Desarrollo de contacto-->
+        <div class="mb-3 contacto-form">
+            <h2 class="text-white ">Nombre: </h2>
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
           </div>
-      </div>    
-    </div>
+        <div class="mb-3 contacto-form">
+            <h2 class="text-white">Correo: </h2>
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3 contacto-form">
+            <h2 class="text-white">Mensaje a enviar: </h2>
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+          </div>
+          <div class="row col-12 m-lg-1" id="enviar-btn">
+            <button type="button" class="btn bg-dark btn-outline-success text-capitalize">ENVIAR</button>
+          </div>
+        </div>
+
 </body>
 <footer class="container-fluid bg-dark">
   <hr class="text-white">
